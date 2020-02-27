@@ -1,0 +1,4 @@
+install:
+  - wget <url> -O python-3.8.tar.gz
+  - SHA=$(git rev-parse HEAD)
+  - mvn install:install-file -Dfile=python-3.8.tar.gz -DgroupId="$GROUP" -DartifactId="$ARTIFACT" -Dversion="$SHA" -Dpackaging="tar.gz" -DgeneratePom=true
