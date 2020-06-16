@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  relocatable-python3:
+    container_name: python3
+    build:
+      context: .
+      dockerfile: Dockerfile
