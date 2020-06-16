@@ -10,6 +10,6 @@ Built using https://github.com/Infinidat/relocatable-python
 ```
 docker-compose build
 docker-compose up --no-start
-docker cp python3:python3.zip .
+docker cp python3:python3.tar.gz .
 ```
-- Relocatable python will be `python3.zip`
+- Relocatable python archive is `python3.tar.gz`
